@@ -10,7 +10,7 @@ const Login = lazy(() => import('../routes/auth/login/Login'));
 const SignUp = lazy(() => import('../routes/auth/signup/SignUp'));
 const NotFound = lazy(() => import('../routes/not-found/NotFound'));
 const Private = lazy(() => import('../routes/private/Private'));
-const ProductDetails = lazy(() => import('../routes/single/ProductDetails'));
+const ProductDetails = lazy(() => import('../routes/Single/ProductDetails'));
 
 const RouteController = () => {
   return useRoutes([
